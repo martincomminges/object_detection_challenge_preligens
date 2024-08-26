@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>113.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>2021</width>
+<height>2308</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>quarry</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>1548</xmin>
+<ymin>1172</ymin>
+<xmax>1958</xmax>
+<ymax>1530</ymax>
+</bndbox>
+</object>
+</annotation>

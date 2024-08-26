@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>548.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>3271</width>
+<height>2806</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>building</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>1607</xmin>
+<ymin>1265</ymin>
+<xmax>1741</xmax>
+<ymax>1412</ymax>
+</bndbox>
+</object>
+</annotation>

@@ -1,0 +1,9 @@
+path: ../data_voc_to_yml/UAVOD_yolo
+train:  # train images (relative to 'path')
+  - train.txt
+val:  # val images (relative to 'path')
+  - val.txt
+
+# Classes
+nc: 10  # number of classes
+names: ['building', 'ship', 'vehicle', 'prefabricated house', 'well', 'cable tower', 'pool', 'landslide', 'cultivation mesh cage', 'quarry']  # class names

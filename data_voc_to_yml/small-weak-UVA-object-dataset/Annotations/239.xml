@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>239.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>2129</width>
+<height>2237</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>landslide</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>252</xmin>
+<ymin>1334</ymin>
+<xmax>1111</xmax>
+<ymax>1973</ymax>
+</bndbox>
+</object>
+</annotation>

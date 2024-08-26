@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>571.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>2690</width>
+<height>2205</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>pool</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>49</xmin>
+<ymin>76</ymin>
+<xmax>2336</xmax>
+<ymax>1682</ymax>
+</bndbox>
+</object>
+<object>
+<name>building</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>2578</xmin>
+<ymin>1922</ymin>
+<xmax>2644</xmax>
+<ymax>1975</ymax>
+</bndbox>
+</object>
+</annotation>

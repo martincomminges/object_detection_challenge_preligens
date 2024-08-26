@@ -1,0 +1,10 @@
+building
+ship
+vehicle
+prefabricated-house
+well
+cable-tower
+pool
+landslide
+cultivation-mesh-cage
+quarry

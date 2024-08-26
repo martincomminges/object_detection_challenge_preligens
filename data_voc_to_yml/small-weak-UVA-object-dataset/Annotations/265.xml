@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>265.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>1845</width>
+<height>1489</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>cable-tower</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>571</xmin>
+<ymin>825</ymin>
+<xmax>718</xmax>
+<ymax>898</ymax>
+</bndbox>
+</object>
+<object>
+<name>cable-tower</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>561</xmin>
+<ymin>557</ymin>
+<xmax>683</xmax>
+<ymax>617</ymax>
+</bndbox>
+</object>
+</annotation>

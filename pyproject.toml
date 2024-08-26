@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "object-detection-challenge-preligens"
+version = "0.1.0"
+description = ""
+authors = ["martincomminges"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psutil = "^6.0.0"
+argparse = "^1.4.0"
+ultralytics = "^8.2.82"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

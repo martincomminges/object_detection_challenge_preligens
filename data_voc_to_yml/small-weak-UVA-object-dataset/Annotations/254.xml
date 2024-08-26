@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>254.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>1177</width>
+<height>1265</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>well</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>1</difficult>
+<bndbox>
+<xmin>357</xmin>
+<ymin>670</ymin>
+<xmax>388</xmax>
+<ymax>705</ymax>
+</bndbox>
+</object>
+<object>
+<name>well</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>1</difficult>
+<bndbox>
+<xmin>596</xmin>
+<ymin>792</ymin>
+<xmax>624</xmax>
+<ymax>824</ymax>
+</bndbox>
+</object>
+</annotation>

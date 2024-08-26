@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>406.jpg</filename>
+<source>
+<database>The VOC2007 Database</database>
+<annotation>PASCAL VOC2007</annotation>
+<image>flickr</image>
+<flickrid>322409915</flickrid>
+</source>
+<size>
+<width>1858</width>
+<height>1529</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>cable-tower</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>839</xmin>
+<ymin>1136</ymin>
+<xmax>914</xmax>
+<ymax>1215</ymax>
+</bndbox>
+</object>
+<object>
+<name>cable-tower</name>
+<pose>Unspecified</pose>
+<truncated>1</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>1172</xmin>
+<ymin>560</ymin>
+<xmax>1272</xmax>
+<ymax>650</ymax>
+</bndbox>
+</object>
+</annotation>
