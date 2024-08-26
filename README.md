@@ -16,11 +16,12 @@ pipx ensurepath
 ```
 
 
-Installer Poetry
-Utilisez pipx pour installer poetry de manière isolée :
+Installer Poetry et Scalene
+Utilisez pipx pour installer poetry de manière isolée et scalene pour profiler le code :
 
 ```
 pipx install poetry
+pipx install scalene
 ```
 Vérifiez que poetry est correctement installé :
 
@@ -53,6 +54,9 @@ poetry run python ./object_detection_challenge_preligens/train.py --data "./data
 
 Script d'Inférence
 Pour exécuter le script d'inférence sur une vidéo de drone :
+```
+scalene --cpu --memory ./object_detection_challenge_preligens/inference.py --model "./object_detection_challenge_preligens/model/yolov8s_pretrained_UAVOD-10_100.pt" --input-video "./data_voc_to_yml/testing_video/2254234-sd_426_240_24fps.mp4" --device 'cpu' --imgsz 640 --conf 0.5 --save-results --output-file './object_detection_challenge_preligens/output/output_results_2254234.txt'
+```
 ```
 poetry run python ./object_detection_challenge_preligens/inference.py --model "./object_detection_challenge_preligens/model/yolov8s_pretrained_UAVOD-10_100.pt" --input-video "./data_voc_to_yml/testing_video/1263198-sd_640_360_30fps.mp4" --device 'cpu' --imgsz 640 --conf 0.5 --save-results --output-file './object_detection_challenge_preligens/output/output_results.txt'
 ```

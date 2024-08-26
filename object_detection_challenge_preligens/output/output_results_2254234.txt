@@ -1,0 +1,15 @@
+Moyenne des vitesses d'inférence :
+preprocess: 1.06 ms
+inference: 75.08 ms
+postprocess: 0.57 ms
+
+Temps d'exécution : 1.682293176651001 secondes
+Utilisation CPU au début : 1.9%, à la fin : 12.1%
+Utilisation de la mémoire au début : 22.3%, à la fin : 22.8%
+
+Résultats de powerstat : 
+Device is not discharging, cannot measure power usage.
+Perhaps re-run with -z (ignore zero power) or -R (RAPL)
+
+
+

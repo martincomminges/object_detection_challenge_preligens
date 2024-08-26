@@ -3,6 +3,8 @@ import psutil
 import subprocess
 import getpass
 import argparse
+from scalene import scalene_profiler
+from scalene.scalene_profiler import enable_profiling
 from ultralytics import YOLO
 
 def parse_args():
@@ -38,13 +40,13 @@ def main():
     memory_info_start = psutil.virtual_memory()
 
     # Début du timing
-    start_time = time.time()
+    start_time = time.perf_counter()
 
     # Exécuter le modèle avec les paramètres spécifiés
     results_pred = exported_model(args.input_video, stream=True, imgsz=args.imgsz, device=args.device, save=args.save_results, conf=args.conf)
 
     # Fin du timing
-    end_time = time.time()
+    end_time = time.perf_counter()
 
     # Mesurer l'utilisation du CPU et de la RAM après l'exécution du modèle
     cpu_percent_end = psutil.cpu_percent(interval=None)
@@ -80,8 +82,10 @@ def main():
     print(f"Les résultats d'inférence et de performance ont été enregistrés dans {args.output_file}")
 
 if __name__ == "__main__":
+    scalene_profiler.start()
+    
     main()
-
+    scalene_profiler.stop()
 #python inference_script.py --model-path './model/yolov8s_pretrained_UAVOD-10_100.pt' --input-video '/path/to/video.mp4' --device 'cpu' --imgsz 640 640 --conf 0.5 --save-results --output-file 'output_results.txt'
 #python ./object_detection_challenge_preligens/inference.py --model "./object_detection_challenge_preligens/model/yolov8s_pretrained_UAVOD-10_100.pt" --input-video "./object_detection_challenge_preligens/data_voc_to_yml/testing_video/1263198-sd_640_360_30fps.mp4" --device 'cpu' --imgsz 640 --conf 0.5 --save-results --output-file './object_detection_challenge_preligens/output/output_results.txt'
 #python ./object_detection_challenge_preligens/inference.py --model "./object_detection_challenge_preligens/model/yolov8s_pretrained_UAVOD-10_100.pt" --input-video "./data_voc_to_yml/testing_video/1263198-sd_640_360_30fps.mp4" --device 'cpu' --imgsz 640 --conf 0.5 --save-results --output-file './object_detection_challenge_preligens/output/output_results.txt'
